@@ -10,7 +10,8 @@
     "lint": "eslint . --ext .js",
     "build": "npm run lint && npm run test",
     "build:quick": "npm run test",
-    "check": "node --version && npm --version"
+    "check": "node --version && npm --version",
+    "check:deps": "npm outdated"
   },
   "keywords": [
     "proxy",
@@ -48,5 +49,5 @@
     "url": "https://github.com/docmirror/dev-sidecar/issues"
   },
   "homepage": "https://github.com/docmirror/dev-sidecar#readme",
-  "_personal_notes": "Personal fork for learning purposes. Upstream: docmirror/dev-sidecar. Added 'check' script to quickly verify node/npm versions."
+  "_personal_notes": "Personal fork for learning purposes. Upstream: docmirror/dev-sidecar. Added 'check' script to quickly verify node/npm versions. Added 'check:deps' script to see outdated dependencies at a glance."
 }
