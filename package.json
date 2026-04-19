@@ -8,7 +8,8 @@
     "start": "node index.js",
     "test": "jest",
     "lint": "eslint . --ext .js",
-    "build": "npm run lint && npm run test"
+    "build": "npm run lint && npm run test",
+    "build:quick": "npm run test"
   },
   "keywords": [
     "proxy",
