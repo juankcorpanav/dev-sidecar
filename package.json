@@ -46,5 +46,6 @@
   "bugs": {
     "url": "https://github.com/docmirror/dev-sidecar/issues"
   },
-  "homepage": "https://github.com/docmirror/dev-sidecar#readme"
+  "homepage": "https://github.com/docmirror/dev-sidecar#readme",
+  "_personal_notes": "Personal fork for learning purposes. Upstream: docmirror/dev-sidecar"
 }
