@@ -14,7 +14,8 @@
     "check:deps": "npm outdated",
     "clean": "rm -rf node_modules && npm install",
     "reinstall": "rm -rf node_modules package-lock.json && npm install",
-    "deps:update": "npm update && npm outdated"
+    "deps:update": "npm update && npm outdated",
+    "lint:fix": "eslint . --ext .js --fix"
   },
   "keywords": [
     "proxy",
@@ -52,5 +53,5 @@
     "url": "https://github.com/docmirror/dev-sidecar/issues"
   },
   "homepage": "https://github.com/docmirror/dev-sidecar#readme",
-  "_personal_notes": "Personal fork for learning purposes. Upstream: docmirror/dev-sidecar. Added 'check' script to quickly verify node/npm versions. Added 'check:deps' script to see outdated dependencies at a glance. Added 'clean' script to nuke node_modules and reinstall cleanly. Added 'reinstall' script that also removes package-lock.json for a truly fresh install when lock file issues arise. Added 'deps:update' script to run npm update and then show any remaining outdated packages in one step."
+  "_personal_notes": "Personal fork for learning purposes. Upstream: docmirror/dev-sidecar. Added 'check' script to quickly verify node/npm versions. Added 'check:deps' script to see outdated dependencies at a glance. Added 'clean' script to nuke node_modules and reinstall cleanly. Added 'reinstall' script that also removes package-lock.json for a truly fresh install when lock file issues arise. Added 'deps:update' script to run npm update and then show any remaining outdated packages in one step. Added 'lint:fix' script as a convenience shorthand for auto-fixing lint errors in one command."
 }
